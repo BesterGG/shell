@@ -1,0 +1,1 @@
+This script launch pwd command
