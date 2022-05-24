@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | ls
+ls -rt | tail -n 1
