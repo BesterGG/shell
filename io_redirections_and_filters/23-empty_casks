@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty -type f -path '*/.*' -print  -printf '%f\n' | rev  | cut -d '/' -f 1 | sort | rev
+find ./ -empty -type f -a | rev  | cut -d '/' -f 1 | sort | rev
