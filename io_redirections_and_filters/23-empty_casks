@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty -type f -a -printf '%f\n' | rev  | cut -d '/' -f 1 | sort | rev
+ls -a | find ./ -empty -type f -a -printf '%f\n' | rev  | cut -d '/' -f 1 | sort | rev
