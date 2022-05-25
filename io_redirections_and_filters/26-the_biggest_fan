@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(tr -s '\t' ' ' | uniq -c | cut .d " " -f 2 |sort)
+echo $(tr -s '\t' ' ' | uniq -c | cut -d " " -f 1 |sort)
