@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(head -c 1) $\n | $(head -c 1)
+echo $(head -c 1) $\n
