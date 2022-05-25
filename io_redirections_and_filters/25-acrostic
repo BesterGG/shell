@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -r $(head -c 1)
+echo $(head -c 1) -rf
