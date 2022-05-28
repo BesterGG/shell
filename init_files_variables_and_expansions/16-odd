@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -P '[02468]' | echo
+echo | grep -P '[02468]
