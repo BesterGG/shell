@@ -1,2 +1,2 @@
 #!/bin/bash
-nl |grep -P '[02468]'
+paste | nl | grep -P '[02468]'
