@@ -1,2 +1,2 @@
 #!/bin/bash
-nl | grep [24680]
+echo | grep [24680]
