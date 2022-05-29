@@ -9,4 +9,5 @@ do
 			else
 				echo "Best school"
 	fi
+	x=$(( x+1 ))
 done
