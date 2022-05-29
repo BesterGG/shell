@@ -7,4 +7,5 @@ if [ $x -eq 9 ]
 echo "Hi"
 else
 echo "Best school"
+fi
 done
