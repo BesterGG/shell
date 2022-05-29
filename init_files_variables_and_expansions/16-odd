@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | cut -b 4
+cat -n | cut -b 4-
