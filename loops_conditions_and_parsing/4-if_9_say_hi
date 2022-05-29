@@ -2,10 +2,11 @@
 # Script if 9 say Hi
 x=1
 while [ $x -le 10 ]
-if [ $x -eq 9 ]
-	then echo "Best School"
-echo "Hi"
-else
-echo "Best school"
-fi
+do
+	if [ $x -eq 9 ]
+			then echo "Best School"
+				echo "Hi"
+			else
+				echo "Best school"
+	fi
 done
