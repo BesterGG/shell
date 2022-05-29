@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Script if 9 say Hi
 x=1
 while [ $x -le 10 ]
 if [ $x -eq 9 ]
