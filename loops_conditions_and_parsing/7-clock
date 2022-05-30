@@ -4,8 +4,8 @@ hour=0
 min=1
 while [ $hour -le 12 ]
 do
-	((hour++))
 	echo "Hour: $hour"
+	((hour++))
 	while [ $min -lt 60 ]
 	do 
 		echo "$min"
