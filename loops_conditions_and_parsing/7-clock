@@ -10,7 +10,7 @@ do
 	do 
 		echo "$min"
 		((min++))
-		if [ $min -eq 59 ]
+		if [ $min -eq 60 ]
 		then
 			min=$((min=1))
 		fi
