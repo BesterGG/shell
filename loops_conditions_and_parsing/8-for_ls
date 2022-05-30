@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Esto es un ls con for
 for f in *; do
   echo "File -> $f"
 done
