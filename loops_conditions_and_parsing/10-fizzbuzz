@@ -15,8 +15,8 @@ do
 													elif (( "$x"%5 == 0 ))
 													then
 														echo "Buzz"
-						fi  
-					else
-						echo "$x"
-	fi          
+													else
+														echo "$x"
+						fi         
+	fi
 done
