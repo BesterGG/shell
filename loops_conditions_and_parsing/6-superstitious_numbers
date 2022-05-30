@@ -1,18 +1,16 @@
 #!/usr/bin/env bash
 # Superstitious Numbers
 x=1
-while [ $x -le 20 ];
+while [ $x -ne 20 ]
 do
-	case [ $x -eq 4 ]
-		echo "$x"
-		echo "bad luck from China"
-esac
-case [ $x -eq 9 ]
-	echo "$x"
-	echo "bad luck from Japan"
-esac
-case [ $x -eq 17 ]
-	echo "$x"
-	echo "bad luck from Italy"
-esac
+	case $x in
+		4)
+			echo "bad luck from China";;
+		9)
+			echo "bad luck from Japan";;
+		17)
+			echo "bad luck from Italy";;
+	esac
+	x=$(( x+1 ))
+	echo $x
 done
