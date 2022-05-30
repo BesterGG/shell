@@ -11,5 +11,5 @@ do
 		echo "$min"
 		((min++))
 	done
-	min=$((min++))
+	min=1
 done
