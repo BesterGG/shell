@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Hi
 hour=0
-min=0
+min=1
 while [ $hour -le 12 ]
 do
 	((hour++))
@@ -12,7 +12,7 @@ do
 		((min++))
 		if [ $min -eq 59 ]
 		then
-			min=$((min=0))
+			min=$((min=1))
 		fi
 	done
 done
