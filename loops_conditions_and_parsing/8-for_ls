@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Esto es un ls con for
 for f in *; do
-  echo $f
+	echo $f | cut -d'-' -f2
 done
