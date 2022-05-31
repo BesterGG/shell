@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#First time with awk
+cat ./apache-access.log |awk {print $1}'
