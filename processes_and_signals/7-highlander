@@ -5,7 +5,7 @@ do
 	echo "To infinity and beyond"
 	sleep 2
 done
-if [ trap SIGTERM ]
+if [ trap $SIGTERM ]
 then
 	echo "I am invincible!!!"
 fi
