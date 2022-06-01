@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-#This script kill scripts
-4ib="4-to_infinity_and_beyond"
-kill $4ib
+# Script kill script
+pkill -f "beyond"
