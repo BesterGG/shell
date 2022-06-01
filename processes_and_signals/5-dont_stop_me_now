@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #This script kill scripts
-PATH=/shell/processes_and_signals/4-to_infinity_and_beyond
-sigkill $PATH
+4ib=/shell/processes_and_signals/4-to_infinity_and_beyond
+sigkill $4ib
