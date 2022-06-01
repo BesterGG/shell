@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script kill script
+pkill -f "beyond"
