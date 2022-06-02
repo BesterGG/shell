@@ -3,14 +3,14 @@
 par=$1
 case $par in 
 	start)
+		echo "manage_my_process started"
 		./manage_my_process &
 		touch /var/run/my_process.pid
 		echo $! > /var/run/my_process.pid
-		echo "manage_my_process started"
 		;;
 	stop)
-		pkill -f "manage_my_process"
 		echo "manage_my_process stopped"
+		pkill -f "manage_my_process"
 		;;
 	restart)
 		echo "manage_my_process restarted"
