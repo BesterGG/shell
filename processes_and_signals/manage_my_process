@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Task 11.2
+while true
+do
+	echo "I am alive!"
+	sleep 2
+done
