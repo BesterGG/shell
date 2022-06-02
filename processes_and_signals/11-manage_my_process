@@ -3,7 +3,7 @@
 par=$1
 case $par in 
 	start)
-		/bin/bash /shell/processes_and_signals
+		source /shell/processes_and_signals
 		echo $$ > /var/run/my_process.pid
 		echo "manage_my_process started"
 		;;
