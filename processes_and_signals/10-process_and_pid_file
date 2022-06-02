@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Task 9
 ps -auxf > /var/run/myscript.pid
-trap '"echo I hate the kill command; rm -rf /var/run/myscript.pid; exit"' SIGTERM
-trap "echo Y U no love me?!" SIGINIT
+trap 'echo "I hate the kill command"; rm -rf /var/run/myscript.pid; exit' SIGTERM
+trap 'echo "Y U no love me?!"' SIGINIT
 trap 'rm -rf /var/run/myscript.pid; exit' SIGQUIT
 while true
 do
