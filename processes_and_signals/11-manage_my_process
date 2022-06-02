@@ -14,6 +14,7 @@ case $par in
 		;;
 	restart)
 		echo "manage_my_process restarted"
+		kill -STOP -- "-$(pgrep manage_my_process)"
 		;;	
 	*) echo "Usage: manage_my_process {start|stop|restart}"
 		;;
