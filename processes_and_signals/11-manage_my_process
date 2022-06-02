@@ -10,6 +10,6 @@ case $par in
 	stop)
 		kill -STOP -- "-$(pgrep manage_my_process)"
 		echo "manage_my_process stopped"
-		find . -name "manage_my_process" -delete
+		find var/run/ -name "manage_my_process" -delete
 		;;	
 	esac
