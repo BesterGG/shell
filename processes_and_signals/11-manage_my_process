@@ -7,4 +7,7 @@ case $par in
 		echo $$ > /var/run/my_process.pid
 		echo "manage_my_process started"
 		;;
-esac
+	stop)
+		trap 'echo "manage_my_process stopped"; kill -STOP -- "-$(pgrep manage_my_process)'
+	
+	esac
