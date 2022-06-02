@@ -6,5 +6,5 @@ case $par in
 		/bin/bash /shell/processes_and_signals
 		ps -auxf | grep bash > /var/run/my_process.pid
 		echo "manage_my_process started"
-
+		;;
 esac
